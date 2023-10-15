@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FinSight</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1>Welcome to FinSight: Your AI-Driven Personal Investment Assistant</h1>
+        
+        <form action="/stock_data" method="post" class="mt-4">
+            <div class="form-group">
+                <label for="ticker">Enter Stock Ticker (e.g., AAPL):</label>
+                <input type="text" name="ticker" id="ticker" class="form-control">
+            </div>
+            <button type="submit" class="btn btn-primary">Get Data</button>
+        </form>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
